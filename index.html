@@ -10,7 +10,7 @@
         rel="stylesheet">
     <title>Agatila</title>
 </head>
-    <header class="hero">
+<header class="hero">
     <div class="hero-wrapper">
 
         <div class="avatar">
@@ -50,24 +50,26 @@
                 </a>
             </div>
         </div>
-        
-    </header>
+
+</header>
 
 <section class="categories">
-    <div class="category-card" style="background-image: url('./Assets/categorie-video.jpg');">
-        <span>Vidéo</span>
-    </div>
-
-    <div class="category-card" style="background-image: url('./Assets/categorie-photo.jpg');">
-        <span>Photographie</span>
-    </div>
-
-    <div class="category-card" style="background-image: url('./Assets/categorie-graphisme.jpg');">
-        <span>Graphisme</span>
+    <div class="categories-wrapper">
+        <a href="#video" class="category-card" style="background-image: url('./Assets/categorie-video.jpg');">
+            <span>Vidéo</span>
+        </a>
+        
+        <a href="#photo" class="category-card" style="background-image: url('./Assets/categorie-photo.jpg');">
+            <span>Photographie</span>
+        </a>
+        
+        <a href="#graphisme" class="category-card" style="background-image: url('./Assets/categorie-graphisme.jpg');">
+            <span>Graphisme</span>
+        </a>
     </div>
 </section>
 
-<section class="video-section">
+<section id="video" class="video-section">
     <div class="video-wrapper">
 
         <h2 class="section-title">La vidéo</h2>
@@ -75,32 +77,32 @@
 
         <div class="video-grid">
 
-            <div class="video-item">
+            <a href="https://www.youtube.com/watch?v=FetB69JhtbM" target="_blank" class="video-item">
                 <div class="video-img-container">
                     <img src="./Assets/categorie-interviews.jpg" alt="Interviews">
                 </div>
                 <p class="video-caption">Interviews</p>
-            </div>
+            </a>
 
-            <div class="video-item">
+            <a href="https://www.youtube.com/watch?v=hMTiNEUY8DM" target="_blank" class="video-item">
                 <div class="video-img-container">
                     <img src="./Assets/categorie-reportages.jpg" alt="Reportages">
                 </div>
                 <p class="video-caption">Reportages</p>
-            </div>
+            </a>
 
-            <div class="video-item video-large">
+            <a href="https://www.youtube.com/watch?v=6eJYHwlhDUs" target="_blank" class="video-item video-large">
                 <div class="video-img-container">
                     <img src="./Assets/categorie-mediterranee.jpg" alt="Je suis la mer Méditerranée">
                 </div>
                 <p class="video-caption">Je suis la mer Méditerranée</p>
-            </div>
+            </a>
 
         </div>
     </div>
 </section>
 
-<section class="photo-section">
+<section id="photo" class="photo-section">
     <div class="photo-wrapper">
 
         <h2 class="section-title">La photographie</h2>
@@ -109,13 +111,13 @@
         <div class="photo-gallery">
 
             <div class="photo-item"><img src="./Assets/gallery/gallery-photo-1.jpg" alt=""></div>
-            
+
             <div class="photo-item has-caption"><img src="./Assets/gallery/gallery-photo-4.jpg" alt="">
-            <span class="photo-caption">Déjeuner sur l’herbe</span>
+                <span class="photo-caption">Déjeuner sur l'herbe</span>
             </div>
 
             <div class="photo-item has-caption"><img src="./Assets/gallery/gallery-photo-11.jpg" alt="">
-            <span class="photo-caption">Suisse</span>
+                <span class="photo-caption">Suisse</span>
             </div>
 
 
@@ -137,7 +139,7 @@
             <div class="photo-item"><img src="./Assets/gallery/gallery-photo-8.jpg" alt=""></div>
 
             <div class="photo-item"><img src="./Assets/gallery/gallery-photo-10.jpg" alt=""></div>
-        
+
 
             <div class="photo-item has-caption">
                 <img src="./Assets/gallery/gallery-photo-3.jpg" alt="">
@@ -149,7 +151,7 @@
             </div>
 
             <div class="photo-item has-caption"><img src="./Assets/gallery/gallery-photo-13.jpg" alt="">
-            <span class="photo-caption">Drone</span>
+                <span class="photo-caption">Drone</span>
             </div>
 
             <div class="photo-item"><img src="./Assets/gallery/gallery-photo-14.jpg" alt=""></div>
@@ -157,52 +159,60 @@
         </div>
 
     </div>
-</sec
+</section>
 
 <!-- SECTION GRAPHISME -->
-<section class="graphisme-section">
-  <div class="graphisme-wrapper">
+<section id="graphisme" class="graphisme-section">
+    <div class="graphisme-wrapper">
 
-    <h2 class="section-title">Le graphisme</h2>
-    <p class="section-subtitle">pour un univers unique</p>
+        <h2 class="section-title">Le graphisme</h2>
+        <p class="section-subtitle">pour un univers unique</p>
 
-    <div class="graphisme-grid">
-      <div class="graphisme-card">
-        <img src="./Assets/categorie-sealens.jpg" alt="Sealens">
-      </div>
+        <div class="graphisme-grid">
+            <div class="graphisme-card">
+                <img src="./Assets/categorie-sealens.jpg" alt="Sealens">
+            </div>
 
-      <div class="graphisme-card">
-        <img src="./Assets/categorie-bartle.jpg" alt="Bartle">
-      </div>
+            <div class="graphisme-card">
+                <img src="./Assets/categorie-bartle.jpg" alt="Bartle">
+            </div>
 
-      <div class="graphisme-card">
-        <img src="./Assets/categorie-peinture.jpg" alt="Peinture">
-      </div>
+            <div class="graphisme-card">
+                <img src="./Assets/categorie-peinture.jpg" alt="Peinture">
+            </div>
+        </div>
+
     </div>
-
-  </div>
 </section>
 
 
 <!-- FOOTER -->
 <footer class="footer">
-  <div class="footer-content">
-    <p>© 2025 Agathe Couturier</p>
+    <div class="footer-content">
+        <p>©
+            <script>document.write(new Date().getFullYear())</script> Agathe Couturier
+        </p>
 
-    <div class="footer-links">
-      <a href="mailto:agathecout@gmail.com">agathecout@gmail.com</a>
+        <div class="footer-links">
+            <a href="mailto:agathecout@gmail.com">agathecout@gmail.com</a>
 
-      <a href="https://www.instagram.com/agatila/?hl=fr" target="_blank">
-        <svg width="22" fill="none" stroke="#6B8B81" stroke-width="2" viewBox="0 0 24 24">
-          <rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/>
-        </svg>
-      </a>
+            <a href="https://www.instagram.com/agatila/?hl=fr" target="_blank">
+                <svg width="22" fill="none" stroke="#6B8B81" stroke-width="2" viewBox="0 0 24 24">
+                    <rect x="2" y="2" width="20" height="20" rx="5" />
+                    <circle cx="12" cy="12" r="4" />
+                </svg>
+            </a>
 
-      <a href="https://www.youtube.com/@Agatila" target="_blank">
-        <svg width="22" fill="#6B8B81" viewBox="0 0 24 24">
-          <path d="M10 15V9l5 3-5 3z"/><path d="M21.8 8s-.2-1.4-.8-2c-.7-.8-1.6-.8-2-1C16.2 4 12 4 12 4h0s-4.2 0-7 .8c-.5.2-1.3.2-2 1-.6.6-.8 2-.8 2S2 9.6 2 11.3v1.3c0 1.7.2 3.3.2 3.3s.2 1.4.8 2c.7.8 1.6.8 2 1C7.8 20 12 20 12 20h0s4.2 0 7-.8c.5-.2 1.3-.2 2-1 .6-.6.8-2 .8-2s
-
-
+            <a href="https://www.youtube.com/@Agatila" target="_blank">
+                <svg width="33" height="24" viewBox="0 0 33 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform: scale(.8);">
+                    <path
+                        d="M32.6713 5.20006C32.6713 5.20006 32.349 2.85592 31.3564 1.82663C30.0996 0.471939 28.6945 0.465298 28.05 0.385611C23.4352 0.0402983 16.5064 0.0402985 16.5064 0.0402985H16.4936C16.4936 0.0402985 9.56484 0.0402983 4.95 0.385611C4.30547 0.465298 2.90039 0.471939 1.64355 1.82663C0.650977 2.85592 0.335156 5.20006 0.335156 5.20006C0.335156 5.20006 0 7.95592 0 10.7051V13.2817C0 16.0309 0.328711 18.7868 0.328711 18.7868C0.328711 18.7868 0.650976 21.1309 1.63711 22.1602C2.89395 23.5149 4.54395 23.4684 5.27871 23.6145C7.92129 23.8735 16.5 23.9532 16.5 23.9532C16.5 23.9532 23.4352 23.9399 28.05 23.6012C28.6945 23.5215 30.0996 23.5149 31.3564 22.1602C32.349 21.1309 32.6713 18.7868 32.6713 18.7868C32.6713 18.7868 33 16.0376 33 13.2817V10.7051C33 7.95592 32.6713 5.20006 32.6713 5.20006ZM13.0904 16.4094V6.85358L22.0043 11.6481L13.0904 16.4094Z"
+                        fill="#6B8B81" />
+                </svg>
+            </a>
+        </div>
+    </div>
+</footer>
 
 </body>
 
